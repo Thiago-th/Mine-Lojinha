@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css" type="text/css"> <!--linkando css no html--> 
+    <script type="text/Javascript" src="nossojs.js"></script> <!--linkando Js no html--> 
+</head>
+<body>
+    <h1>Cadastre-se!</h1>
+    <div>
+        <form action="cadastro.php" method="POST">
+            <div>
+                <label>Nome</label>
+                <input type="text" name="nome">
+            </div>
+            <div>
+                <label>E-mail</label>
+                <input type="text" name="email" required>
+            </div>
+            <div>
+                <label>Senha</label>
+                <input type="text" name="senha" required>
+            </div>
+            <div>
+                <label>celular</label>
+                <input type="number" name="celular">
+            </div>
+            <div>
+                <label>telefone</label>
+                <input type="number" name="telefone">
+            </div>
+            <div>
+                <button type="submit">Criar</button>
+            </div>
+        </form>
+    </div>
+    <p>Já possui uma conta? Faça <a href="index.php">Login!</a></p>
+</body>
+</html>
